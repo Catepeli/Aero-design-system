@@ -9,7 +9,8 @@ Ce repository partage un projet en cours de réalisation, afin de constituer une
 
 ## Pourquoi ce DS?
 
-Les interfaces critiques en aéronautique exigent **précision**, **fiabilité**, **accessibilité**. Ce système garantit:
+Les interfaces critiques en aéronautique exigent **précision**, **fiabilité**, **accessibilité**.
+Ce système garantit:
 
 (en cible)
 - ✅ **Cohérence visuelle** : tokens centralisés, appliqués partout
@@ -20,10 +21,10 @@ Les interfaces critiques en aéronautique exigent **précision**, **fiabilité**
 
 ---
 
-## Quick Start
+## Quick Start (WIP)
 
 ```bash
-git clone https://github.com/ton-username/aerospace-design-system.git
+git clone https://---- (XX)
 cd aero-design-system
 
 npm install
@@ -32,7 +33,7 @@ npm run dev
 
 ---
 
-## Architecture
+## Architecture (WIP)
 
 ```
 tokens/              # Design tokens (source unique en JSON)
@@ -65,7 +66,7 @@ figma/               # Design system Figma (variables + components)
 
 ---
 
-## Tokens → Code 
+## Tokens → Code (WIP)
 
 ### 1️⃣ Éditer les tokens
 ```json
@@ -87,7 +88,7 @@ figma/               # Design system Figma (variables + components)
 npm run tokens:build
 ```
 
-### 3️⃣ Utilise dans SCSS
+### 3️⃣ Utiliser dans SCSS (WIP)
 ```scss
 // src/components/button/button.scss
 @import '../../styles/generated/variables';
